@@ -1,0 +1,321 @@
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.heading{
+    position: absolute;
+    margin-left: 25px;
+    padding: 35px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #1B1A17;
+}
+#center{
+    text-align: center;
+}
+.two{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.three{
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.down{
+    text-transform: uppercase;
+    color: #1B1A17;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 60px;
+    
+}
+.red{
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #1B1A17;
+    padding: 10px;
+}
+.mix{
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1A17;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    
+}
+.child{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    margin: 40px;
+    
+}
+.real{
+    color: white;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.jpeg{
+    margin: auto;
+    width: 100%;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.skills{
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+#myName, #email, #phone, #message{
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+    outline: none;
+    border-bottom: 1px solid #D3D3D3;
+    width: 100%;
+}
+#myName:hover{
+    border-bottom: 1px solid #2192FF;
+}
+#email:hover{
+    border-bottom: 1px solid #2192FF;
+}
+#phone:hover{
+    border-bottom: 1px solid #2192FF;
+}
+#message:hover{
+    border-bottom: 1px solid #2192FF;
+}
+textarea::-webkit-scrollbar{
+    width: 4px;
+    
+}
+textarea::-webkit-scrollbar-thumb{
+    
+    background-color: #1b1a18;
+}
+ .nameError, .emailError, .phoneError, .messageError{
+    bottom: 12px;
+    right: 17px; 
+    color: red;
+    font-size: 12px; 
+} 
+
+.input-field span i{
+    color: seagreen;
+    font-size: 15px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #1B1A17;
+    text-transform: uppercase;
+}
+.label:hover{
+    background-color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+.cta{
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #1B1A17;
+    border-color: white;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.cta:hover{
+    background-color: #084594;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1A17;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+.send{
+    margin-left: 200px;
+    font-family: 'Oswald', sans-serif;
+    color: #1B1A17;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.send:hover{
+    color: beige;
+}
+.phone{
+    padding: 10px;
+    margin-left:240px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #1B1A17;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.phone:hover{
+    color: beige;
+}
+.about{
+    background-color:#EFEFEF;
+}
+.card{
+    margin: auto;
+    width: 450px;
+}
+#myVideo{
+    width: 100%;
+}
+.class{
+    margin: auto;
+    width: 100%;
+}
+.six{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+    padding:5px;
+    flex: 1;
+}
+.sure{
+    padding: 20px;
+}
+.div{
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.brown{
+    justify-content: center;
+}
+.dark{
+    background-color: #1B1A17;
+    border: 20px solid white;
+}
+.our{
+    display: flex;
+    justify-content: center;
+}
+
+.design{
+    display: flex;
+    flex-direction: column;
+    background-color:#1B1A17;
+    margin-right: 200px;
+    margin-top: 150px;
+    padding: 20px;
+    flex: 1;
+}
+.nine{
+    display: flex;
+    flex-direction: column;
+    background-color:#1B1A17;
+    margin-left: 200px;
+    margin-top: 150px;
+    padding: 20px;
+    flex: 1;
+}
+.row{
+    text-transform: uppercase;
+    color: #F7F7F7;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.rose{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: #F7F7F7;
+    
+}
+.myDesign{
+    text-transform: uppercase;
+    color: #F7F7F7;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.service{
+    text-transform: uppercase;
+    margin-left: 150px;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: #F7F7F7;
+}
+.navbar{
+    font-family: 'Oswald', sans-serif;
+    margin-right: 60px;
+}
+
+@media all and (max-width: 800px){
+    .row{
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 500px){
+    .down{
+        font-size: 28px;
+    }
+    .red{
+        font-size: 15px;
+    }
+    .child{
+        font-size: 20px;
+    }
+    .real{
+        font-size: 15px;
+    }
+    #center{
+        font-size: 15px;
+    }
+    label{
+        font-size: 12px;
+    }
+    .row{
+        margin-left: 10px;
+    }
+    .bg-body{
+        margin-left: 15px;
+    }
+    .myDesign, .service{
+        margin-left: 10px;
+    }
+}
+
+
+
+
